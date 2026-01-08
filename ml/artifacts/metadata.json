@@ -1,0 +1,18 @@
+{
+  "db_uri": "postgresql://postgres:***@localhost:5432/retail",
+  "training_table": "mart_customer_train",
+  "model_type": "LogisticRegression",
+  "features": [
+    "recency_days",
+    "frequency_invoices",
+    "monetary_total",
+    "avg_basket_value",
+    "avg_items_per_invoice",
+    "unique_products",
+    "active_days"
+  ],
+  "test_size": 0.25,
+  "random_state": 42,
+  "roc_auc_time_split": 0.8017509102591561,
+  "threshold": 0.5
+}
