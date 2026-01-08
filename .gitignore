@@ -1,0 +1,21 @@
+# Mac
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data
+data/raw/
+data/staging/
+
+# Model artifacts
+ml/artifacts/
+
+# Secrets
+.env
+.pgpass
+
+# Docker volumes
+pgdata/
